@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+}
+html{
+	font-family: arival, helvetica, sans-serif;
+}
+
+header nav {
+	width: 1185px;
+	height: 100%;
+	margin: 0 auto;
+}
+header{
+	background-color: #66cccc;
+	height: 100%;
+}
+/*---------- Navigation-------*/
+nav ul {
+	padding: 0;
+	list-style: none;
+	align-self: flex-end;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav a {
+	font-size: 20px;
+	text-decoration: underline;
+}
+nav li a {
+	margin-left: 50px;
+	color:black;
+}
+nav img {
+	margin: 20px 0;
+}
+/*-------Tekst og andet------*/
+
+h1 {
+	font-size: 48px;
+	margin: 0;
+}
+p {
+	line-height: 1.5;
+}
+header {
+	height: 240px;
+}
+main {
+	width: 1184px;
+	margin: 0 auto;
+	padding: 48px 0;
+}	
+
+/*-----Main----*/
+article {
+	display: flex;
+	justify-content: space-between;
+}
+article section {
+	width: 40%;
+}
+
+article figure {
+	width: 40%;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+figure img {
+	margin-bottom: 15px;
+}
+
+footer{
+	background-color: aquamarine;
+	height: 90px;
+}
+#Logo{
+	position: absolute;
+	bottom: -55vh;
+	left: 50vw;
+	padding: 1em;
+	transform: translateX(-65%);
+}
+footer img {
+	margin-left: 35px;
+}
+figure img {
+	margin-bottom: 15px;
+}
+
+
+
